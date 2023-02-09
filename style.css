@@ -1,25 +1,54 @@
+
+
 ul {
     display: flex;
     list-style-type: none;
     margin: 2%;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(224, 214, 214);
+    background-color: rgb(215, 224, 214);
     
 
   }
+
+  ul.ints {
+    display: flex;
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    line-height: 200%;
+  }
   
+  li.in {
+    flex: 1;
+    flex-direction: column;
+  }
+
   li {
     flex: 1;
   }
   
   li a {
     display: flex;
-    color: palevioletred;
+    color: rgb(112, 209, 216);
     padding: 14px 16px;
     text-decoration: none;
     font-size: xx-large;
     font-family: "Lucida Handwriting";
+   
+    
+  }
+
+  a.in {
+   
+    color: blue;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size:medium;
+    font-family:'Courier New', Courier, monospace;
     
   }
   
@@ -40,12 +69,9 @@ ul {
   h2.about {
     color:gray;
     
-    
   }
 
-  input[type=checkbox] {
-    color:red;
-  }
+
 
 
 
@@ -56,10 +82,20 @@ ul {
     min-width: 300px;
   }
 
-  @media only screen and (max-midth: 800px){
+  @media only screen and (max-width: 800px){
     
-    div.ver {
-        padding: 10px;
+    section.checkbox {
+      display: flex;
+      flex-direction: column;
+      position: absolute; left: 20%; top: 50%;
+      
+    }
+    div.vert {
+      transform: rotate(90deg);
+      border-left: 2px solid black;
+      height:100%;
+      position: absolute; left: 30%; top: 10.8%;
+      min-width: 300px;
     }
   }
 
@@ -71,3 +107,16 @@ ul {
     position: absolute; left: 0%; 
   }
 
+progress {
+  background-color: aqua;
+}
+
+#h2_in {
+  display: flex;
+  align-self: center;
+}
+
+#ex {
+  font-weight: bold;
+  color: rgb(189, 33, 46);
+}

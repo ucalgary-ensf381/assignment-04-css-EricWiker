@@ -94,7 +94,7 @@ ul {
       transform: rotate(90deg);
       border-left: 2px solid black;
       height:100%;
-      position: absolute; left: 40%; top: 10.8%;
+      position: absolute; left: 60%; top: 10.8%;
       min-width: 300px;
     }
   }

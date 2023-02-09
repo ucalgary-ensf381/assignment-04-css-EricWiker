@@ -1,0 +1,73 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(224, 214, 214);
+    
+
+  }
+  
+  li {
+    flex: 1;
+  }
+  
+  li a {
+    display: flex;
+    color: palevioletred;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: "Lucida Handwriting";
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(162, 162, 185);
+  }
+
+  img {
+    clip-path: circle();
+  }
+
+  section.checkbox {
+    display: flex;
+    flex-direction: column;
+    position: absolute; left: 60%; top: 20%;
+  }
+
+  h2.about {
+    color:gray;
+    
+    
+  }
+
+  input[type=checkbox] {
+    color:red;
+  }
+
+
+
+  div.vert {
+    border-left: 2px solid black;
+    height:100%;
+    position: absolute; left: 30%; top: 10.8%;
+    min-width: 300px;
+  }
+
+  @media only screen and (max-midth: 800px){
+    
+    div.ver {
+        padding: 10px;
+    }
+  }
+
+  section.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute; left: 0%; 
+  }
+

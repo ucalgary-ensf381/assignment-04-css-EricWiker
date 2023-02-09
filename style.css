@@ -78,7 +78,7 @@ ul {
   div.vert {
     border-left: 2px solid black;
     height:100%;
-    position: absolute; left: 50%; top: 10.8%;
+    position: absolute; left: 40%; top: 10.8%;
     min-width: 300px;
   }
 
@@ -94,7 +94,7 @@ ul {
       transform: rotate(90deg);
       border-left: 2px solid black;
       height:100%;
-      position: absolute; left: 50%; top: 10.8%;
+      position: absolute; left: 40%; top: 10.8%;
       min-width: 300px;
     }
   }

@@ -78,7 +78,7 @@ ul {
   div.vert {
     border-left: 2px solid black;
     height:100%;
-    position: absolute; left: 30%; top: 10.8%;
+    position: absolute; left: 50%; top: 10.8%;
     min-width: 300px;
   }
 
@@ -87,14 +87,14 @@ ul {
     section.checkbox {
       display: flex;
       flex-direction: column;
-      position: absolute; left: 20%; top: 50%;
+      position: absolute; left: 20%; top: 55%;
       
     }
     div.vert {
       transform: rotate(90deg);
       border-left: 2px solid black;
       height:100%;
-      position: absolute; left: 30%; top: 10.8%;
+      position: absolute; left: 50%; top: 10.8%;
       min-width: 300px;
     }
   }

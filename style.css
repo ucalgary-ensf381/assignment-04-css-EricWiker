@@ -1,60 +1,33 @@
 
+#navbar {
+  display:flex;
+  background-color: rgba(41, 41, 41, 0.966);
+}
 
-ul {
-    display: flex;
-    list-style-type: none;
-    margin: 1%;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(215, 224, 214);
-    
+#navele {
+  list-style-type: none;
+  flex: 10;
+}
 
-  }
-
-  ul.ints {
-    display: flex;
-    list-style-type: none;
-    margin: 2%;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    line-height: 200%;
-  }
+#navadd {
+  font-size: xx-large;
   
-  li.in {
-    flex: 1;
-    flex-direction: column;
-  }
+  margin-left: 3%;
+  margin-right: 3%;
+  color: aliceblue;
+}
 
-  li {
-    flex: 1;
-  }
-  
-  li a {
-    display: flex;
-    color: rgb(112, 209, 216);
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: xx-large;
-    font-family: "Lucida Handwriting";
-   
-    
-  }
+#ints {
+  line-height: 300%;
+}
 
-  a.in {
-   
-    color: blue;
-    padding: 0px 0px;
-    text-decoration: none;
-    font-size:medium;
-    font-family:'Courier New', Courier, monospace;
-    
-  }
+#in {
+  list-style-type: "-  " ;
+  font-size: large;
   
-  li a:hover {
-    background-color: rgb(162, 162, 185);
-  }
+}
+
+
 
   img {
     clip-path: circle();
@@ -64,6 +37,7 @@ ul {
     display: flex;
     flex-direction: column;
     position: absolute; left: 60%; top: 20%;
+    
   }
 
   h2.about {
@@ -113,7 +87,7 @@ progress {
 
 #h2_in {
   display: flex;
-  align-self: center;
+  
 }
 
 #ex {
